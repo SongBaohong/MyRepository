@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>标题</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+<style>
+html {
+	background-color: yellowgreen;
+	font-family: "微软雅黑";
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 0;
+}
+
+.wrap {
+	width: 903px;
+	margin: 50px auto;
+	border: 1px solid red;
+	overflow: hidden;
+}
+
+.first {
+	height: 128px;
+	background: url("pic/banner.png") 0 0 no-repeat;
+}
+
+.left {
+	width: 170px;
+	height: 450px;
+	background: url("pic/bg_left.png") 0 0 repeat;
+	box-sizing: border-box;
+	padding: 52px 0 0 30px;
+	line-height: 57px;
+	border: 1px solid red;
+	float: left;
+	overflow: hidden;
+}
+
+.left li {
+	float: left;
+	clear: left;
+}
+
+.left a {
+	text-decoration: none;
+	color: midnightblue;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.left em {
+	font-style: normal;
+	color: red;
+}
+
+.right {
+	float: right;
+	background-color: mistyrose;
+	padding: 10px 0 0 38px;
+	width: 693px;
+	border: 1px solid red;
+	height: 438px;
+	list-style: normal;
+	overflow: hidden;
+}
+
+.right h1 {
+	font-size: 18px;
+	color: dimgray;
+}
+
+.right ul {
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.right .ll {
+	float: left;
+	margin-left: 74px;
+}
+</style>
+<body>
+	<div class="wrap">
+		<div class="first"></div>
+		<ul class="left">
+			<li><a href="index.html"><em>&gt</em> 首 &nbsp; &nbsp;&nbsp;&nbsp;页</a></li>
+			<li><a href="bookRegister.jsp"><em>&gt</em> 入库登记</a></li>
+			<li><a href="SelectAllAction"><em>&gt</em> 库存列表</a></li>
+		</ul>
+		<div class="right">
+			<h1>项目目标</h1>
+			<ul>
+				<li>&nbsp;&nbsp;&nbsp;1、仿真实现一个基于B/S的书籍库存登记系统</li>
+				<li>&nbsp;&nbsp;&nbsp;2、增量式开发，循序渐进完成项目</li>
+				<li>&nbsp;&nbsp;&nbsp;3、掌握Web应用程序编程和调试技巧</li>
+				<li>&nbsp;&nbsp;&nbsp;4、主要涉及以下主要知识点：</li>
+				<ul class="ll">
+					<li>Model 2架构的实现</li>
+					<li>使用Servlet实现控制器，JSP实现视图</li>
+					<li>表单的各种组件的处理</li>
+					<li>使用DAO模式，通过DataSource访问数据</li>
+					<li>在Web应用程序中整合MySQL数据库</li>
+				</ul>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
